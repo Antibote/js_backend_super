@@ -1,0 +1,23 @@
+{
+  "name": "js_backend_super",
+  "version": "1.0.0",
+  "description": "back end part",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antibote/js_backend_super.git"
+  },
+  "author": "Antibote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antibote/js_backend_super/issues"
+  },
+  "homepage": "https://github.com/Antibote/js_backend_super#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2"
+  }
+}
