@@ -31,7 +31,7 @@ app.post('/tasks', async function(req, res) {
     const task = {...req.body, done: false};
     const collection = await getDbCollection('mongodb://127.0.0.1', 'todoapp', 'tasks');
     await collection.insertOne(task);
-    res.send('Task added successfully');
+    res.send(task);
 });
 
 app.patch('/tasks/:id', async function(req, res) {
